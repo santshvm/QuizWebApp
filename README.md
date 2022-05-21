@@ -2,7 +2,7 @@
 
 Working on this project... 
 
-Currently it looks something like this with a basic home page layout 
+Currently it looks something like this with a basic home page layout created using html and css flexbox 
 
 
 
