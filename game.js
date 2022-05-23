@@ -8,6 +8,9 @@ const question = document.getElementById("question");
 
 // creating an array of 4 different choices 
 const choices = Array.from(document.getElementsByClassName("choice-text"));
+const questionCounterText = document.getElementById("questionCounter");
+const scoreText = document.getElementById("score");
+
 
 let currentQuestion = {}; // this is an object
 let acceptingAnswers = false; // user can't answer before we have every thing loaded 
@@ -71,6 +74,9 @@ getNewQuestion = () => {
 
     }
     questionCounter++;
+    // update the question counter in the heads up display to display no of questions 
+    // attempted out of (/) max questions present 
+    questionCounterText.innerHTML = questionCounter + "/" + MAX_QUESTIONS;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerHTML = currentQuestion.question;
@@ -99,6 +105,11 @@ choices.forEach( choice => {
        // create two classes - one will be the incorrect class and one will be the correct class 
        const classToApply = 
         selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+        /* if correct answer is clicked then the score should increase by 10 that is the bonus marks awarded for correct answer */ 
+        if (classToApply === "correct") { 
+            increamentScore(CORRECT_BONUS);
+        }
         // console.log(classToApply);
         selectedChoice.parentElement.classList.add(classToApply);
         setTimeout(() => {
@@ -109,5 +120,15 @@ choices.forEach( choice => {
        
     });
 });
+
+
+// this function will increase the value of score by num 
+// it will also update the score in the heads up display
+increamentScore = num => {
+    score = score + num;
+    // update the score in the heads up display 
+    scoreText.innerHTML = score;
+
+}
 
 startGame();

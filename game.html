@@ -5,12 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/game.css">
 </head>
 <body>
     <div class="container">
         <div id="game" class="justify-center flex-column">
+
+            <!--creating a heads up display-->
+            <div id="hud">
+                <div id="hud-item">
+                    <!--this p tag will show what question you are on -->
+                    <p class="hud-prefix">
+                        Question
+                    </p>
+
+                    <!--this h1 is something that we need to update dynamically-->
+
+                    <h1 class="hud-main-text" id="questionCounter" style="color: #97C4B8">
+                        
+                    </h1>
+
+                </div>
+            
+
+            
+                <div id="hud-item">
+                    <!--this p tag will show the score -->
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+
+                    <!--this h1 is something that we need to update dynamically-->
+
+                    <h1 class="hud-main-text" id="score" style="color: #97C4B8">
+                        0
+                    </h1>
+
+                </div>
+            </div>
             <h2 id="question">Can you answer this question? </h2>
                     <div class="choice-container">
                         <p class="choice-prefix">A</p>
