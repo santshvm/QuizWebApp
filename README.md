@@ -1,4 +1,4 @@
-# Building a Quiz Web App using JavaScript
+# Building a Quiz App using JavaScript
 
 ## Day - 1: 
 
@@ -32,3 +32,7 @@ Added an click event listener and added feedback mechanim for the choice selecte
 
 https://user-images.githubusercontent.com/70855191/169827246-ba3c9333-bf1b-46c7-bbdc-415f365db6bd.mov
 
+<br>
+<br> 
+<hr>
+<p align="center"> © 2022 Santosh Shivam </p> 
