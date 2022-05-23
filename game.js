@@ -88,15 +88,26 @@ getNewQuestion = () => {
 }
 
 choices.forEach( choice => {
-    choice.addEventListener('click', e => {
+    choice.addEventListener("click", e => {
        // ignore the click if we are not accepting answers anymore 
-       if (!acceptingAnswers) return;
+       if (!acceptingAnswers) return;   
 
        acceptingAnswers = false; // to create a little bit of delay so that users can't click immediately 
        const selectedChoice = e.target;
        const selectedAnswer = selectedChoice.dataset["number"];
-       getNewQuestion();
+
+       // create two classes - one will be the incorrect class and one will be the correct class 
+       const classToApply = 
+        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+        // console.log(classToApply);
+        selectedChoice.parentElement.classList.add(classToApply);
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
+       
+       
     });
-})
+});
 
 startGame();
