@@ -1,4 +1,4 @@
-# Building a Quiz Web App using JavaScript
+# Building a Quiz App using JavaScript
 
 ## Day - 1: 
 
@@ -26,3 +26,13 @@ After creating the game page layout, added some functionality and business logic
 <img width="1440" alt="Screenshot 2022-05-23 at 4 05 13 PM" src="https://user-images.githubusercontent.com/70855191/169801350-db7c7441-4e70-4104-8333-14302a097b67.png">
 
 
+Added an click event listener and added feedback mechanim for the choice selected. If the choice selected corresponds to the correct answer to the quesion, the background-color of the choice changes to green else it changes to red for incorrect answers. 
+
+
+
+https://user-images.githubusercontent.com/70855191/169827246-ba3c9333-bf1b-46c7-bbdc-415f365db6bd.mov
+
+<br>
+<br> 
+<hr>
+<p align="center"> © 2022 Santosh Shivam </p> 
