@@ -1,4 +1,4 @@
-# QuizWebApp Using JavaScript 
+# Building a Quiz Web App using JavaScript
 
 ## Day - 1: 
 
