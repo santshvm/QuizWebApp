@@ -19,3 +19,10 @@ Created the game page layout with dummy elements. It looks something like this:
 
 
 <img width="1438" alt="Screenshot 2022-05-23 at 3 22 53 PM" src="https://user-images.githubusercontent.com/70855191/169794022-3e5f2a06-e238-4b9c-8987-40ec16954ae9.png">
+
+
+After creating the game page layout, added some functionality and business logic using JavaScript. Now, it's displaying a the questions randomly from the hardcoded question array. 
+
+<img width="1440" alt="Screenshot 2022-05-23 at 4 05 13 PM" src="https://user-images.githubusercontent.com/70855191/169801350-db7c7441-4e70-4104-8333-14302a097b67.png">
+
+
