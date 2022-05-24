@@ -52,7 +52,17 @@ https://user-images.githubusercontent.com/70855191/169997367-6bf7ef1d-6c01-49c0-
 
 <br> 
 
-->Creating a progress bar...
+->Created a progress bar than updates accordig to the number of questions attempted. 
+
+## Demo of the progress-bar 
+
+
+https://user-images.githubusercontent.com/70855191/170031104-db02babc-e844-47c6-b23d-d44777d6e596.mov
+
+<br> 
+
+->Creating and styling the end page...
+
 
 
 <br>
