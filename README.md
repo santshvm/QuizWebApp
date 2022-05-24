@@ -61,9 +61,12 @@ https://user-images.githubusercontent.com/70855191/170031104-db02babc-e844-47c6-
 
 <br> 
 
-->Creating and styling the end page...
+->Created and styled the end page (fileName: end.html and end.js) 
+
+## Screenshot of the end page
 
 
+<img width="1439" alt="Screenshot 2022-05-24 at 8 09 42 PM" src="https://user-images.githubusercontent.com/70855191/170063015-b292df58-ea2b-4a87-beef-e0b45225d20e.png">
 
 <br>
 <br> 
