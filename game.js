@@ -1,6 +1,6 @@
 // alert("Test");
 
-// Yeah, it works! 
+// Yeah, it works!!
 
 
 
@@ -8,8 +8,16 @@ const question = document.getElementById("question");
 
 // creating an array of 4 different choices 
 const choices = Array.from(document.getElementsByClassName("choice-text"));
-const questionCounterText = document.getElementById("questionCounter");
+
+// referencing the element with id="progress-text" 
+const progressText = document.getElementById("progress-text");
+
+// referencing the eleement with id="score"
 const scoreText = document.getElementById("score");
+
+// referencing element with id="progress-bar-full"
+const progressBarFull = document.getElementById("progress-bar-full");
+
 
 
 let currentQuestion = {}; // this is an object
@@ -73,10 +81,21 @@ getNewQuestion = () => {
         return window.location.assign("end.html");
 
     }
+    // increament the questions that is already attempted
     questionCounter++;
+
     // update the question counter in the heads up display to display no of questions 
     // attempted out of (/) max questions present 
-    questionCounterText.innerHTML = questionCounter + "/" + MAX_QUESTIONS;
+    
+    progressText.innerText = "Question " + questionCounter + "/" + MAX_QUESTIONS;
+
+    // after increamenting the question, we need to update the progress-bar
+    // to update the progress bar, we would modify the width of the progress-bar
+    // the width will be updated in terms of percentage 
+    // percentage increase in the width = ((questionCounter)/(MAX_QUESTIONS)) * 100
+    // but the value has to be in %. so we will do some string interpolation 
+    progressBarFull.style.width = (questionCounter/MAX_QUESTIONS) * 100 + "%";
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerHTML = currentQuestion.question;
