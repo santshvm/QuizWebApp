@@ -7,7 +7,7 @@ Currently working on this project.
 ## Day-1
 
 
-1. Created a basic homepage layout using HTML and CSS flexbox. 
+1.Created a basic homepage layout using HTML and CSS flexbox. 
 <br> 
 
 ### Screenshot
@@ -18,14 +18,14 @@ Currently working on this project.
 ## Day-2 
 
 
-1. Created the game page layout with dummy elements.
+1.Created the game page layout with dummy elements.
 <br> 
 
 ### Screenshot
 <img width="1438" alt="Screenshot 2022-05-23 at 3 22 53 PM" src="https://user-images.githubusercontent.com/70855191/169794022-3e5f2a06-e238-4b9c-8987-40ec16954ae9.png">
 
 <br> 
-2. After creating the game page layout, added some functionality and business logic using JavaScript. Now, it's displaying a the questions randomly from the hardcoded question array. 
+2.After creating the game page layout, added some functionality and business logic using JavaScript. Now, it's displaying a the questions randomly from the hardcoded question array. 
 <br> 
 
 ### Screenshot
@@ -38,6 +38,13 @@ Currently working on this project.
 ## Demo 
 
 https://user-images.githubusercontent.com/70855191/169827246-ba3c9333-bf1b-46c7-bbdc-415f365db6bd.mov
+
+<br> 
+
+## Day-3
+
+1.Created a HUD (Heads Up Display) to update the total score and number of questions. 
+
 
 <br>
 <br> 
