@@ -43,7 +43,14 @@ https://user-images.githubusercontent.com/70855191/169827246-ba3c9333-bf1b-46c7-
 
 ## Day-3
 
-->Created a HUD (Heads Up Display) to update the total score and number of questions. 
+->Created a HUD (Heads-Up Display) to update the total score and number of questions. Total number of questions as of now is 3 and the bonus points awarded for each correct answer is 10. 
+
+### Demo of the heads-up display 
+
+
+https://user-images.githubusercontent.com/70855191/169997367-6bf7ef1d-6c01-49c0-8707-c2c33b4bfebb.mov
+
+
 
 
 <br>
