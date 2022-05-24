@@ -7,7 +7,7 @@ Currently working on this project.
 ## Day-1
 
 
-1.Created a basic homepage layout using HTML and CSS flexbox. 
+->Created a basic homepage layout using HTML and CSS flexbox. 
 <br> 
 
 ### Screenshot
@@ -18,21 +18,21 @@ Currently working on this project.
 ## Day-2 
 
 
-1.Created the game page layout with dummy elements.
+->Created the game page layout with dummy elements.
 <br> 
 
 ### Screenshot
 <img width="1438" alt="Screenshot 2022-05-23 at 3 22 53 PM" src="https://user-images.githubusercontent.com/70855191/169794022-3e5f2a06-e238-4b9c-8987-40ec16954ae9.png">
 
 <br> 
-2.After creating the game page layout, added some functionality and business logic using JavaScript. Now, it's displaying a the questions randomly from the hardcoded question array. 
+->After creating the game page layout, added some functionality and business logic using JavaScript. Now, it's displaying a the questions randomly from the hardcoded question array. 
 <br> 
 
 ### Screenshot
 <img width="1440" alt="Screenshot 2022-05-23 at 4 05 13 PM" src="https://user-images.githubusercontent.com/70855191/169801350-db7c7441-4e70-4104-8333-14302a097b67.png">
 <br> 
 
-3.Added an click event listener and added feedback mechanim for the choice selected. If the choice selected corresponds to the correct answer to the quesion, the background-color of the choice changes to green else it changes to red for incorrect answers. 
+->Added an click event listener and added feedback mechanim for the choice selected. If the choice selected corresponds to the correct answer to the quesion, the background-color of the choice changes to green else it changes to red for incorrect answers. 
 <br> 
 
 ## Demo 
@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/70855191/169827246-ba3c9333-bf1b-46c7-
 
 ## Day-3
 
-1.Created a HUD (Heads Up Display) to update the total score and number of questions. 
+->Created a HUD (Heads Up Display) to update the total score and number of questions. 
 
 
 <br>
