@@ -78,6 +78,12 @@ getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // then game is over 
         // now we want to go to the end page 
+        // after the game ends, we would need to store the score 
+        // so that the player can see it at the end in the end page
+
+        // use local storage to store the value of score 
+        localStorage.setItem("mostRecentScore", score);
+        
         return window.location.assign("end.html");
 
     }
