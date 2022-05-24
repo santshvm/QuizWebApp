@@ -94,10 +94,18 @@ getNewQuestion = () => {
     // the width will be updated in terms of percentage 
     // percentage increase in the width = ((questionCounter)/(MAX_QUESTIONS)) * 100
     // but the value has to be in %. so we will do some string interpolation 
+
+
     progressBarFull.style.width = (questionCounter/MAX_QUESTIONS) * 100 + "%";
 
+
+    /* trying to get a random index value between 0 and length of the array - 1 (inclusive) so that we can use this value (or random index) to generate a random question from the hardcoded question array*/
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    
+    // got our random question
     currentQuestion = availableQuestions[questionIndex];
+
+    // rendering the random question that we generated
     question.innerHTML = currentQuestion.question;
 
     choices.forEach( choice => {
@@ -105,7 +113,7 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion["choice"  + number];
     });
 
-    availableQuestions.splice(questionIndex, 1); // getting rid of the displayed questions
+    availableQuestions.splice(questionIndex, 1); // getting rid of the already displayed questions 
 
     // letting users to answer the questions
     acceptingAnswers = true; // now the user can answer
