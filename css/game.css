@@ -67,3 +67,22 @@
     background-color: #97C4B8;
     width: 0%;
 }
+
+/* styling the loader */
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #97C4B8;
+    width: 12rem;
+    height:12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
