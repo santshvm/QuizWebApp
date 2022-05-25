@@ -1,8 +1,6 @@
 # Building a Quiz App using JavaScript
 
-Project in progress... 
 
-Currently working on this project. 
 
 ## Day-1
 
@@ -92,6 +90,17 @@ https://user-images.githubusercontent.com/70855191/170252554-c322df4b-198f-4ae8-
 
 
 https://user-images.githubusercontent.com/70855191/170370557-2f1f71b2-607d-4cc3-81ba-9726ff4aef82.mov
+
+# Acknowledgements
+
+* [colorhunt.co](https://colorhunt.co/)
+* [W3 Schools CSS FlexBox](https://www.w3schools.com/css/css3_flexbox.asp)
+* [W3 Schools CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
+* [W3 Schools CSS loader](https://www.w3schools.com/howto/howto_css_loader.asp)
+* [W3 Schools JavaScript](https://www.w3schools.com/js/)
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)
+* [Fetch API Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [W3 JavaScript localStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
 
 
 <hr>
