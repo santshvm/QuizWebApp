@@ -75,15 +75,24 @@ https://user-images.githubusercontent.com/70855191/170031104-db02babc-e844-47c6-
 
 https://user-images.githubusercontent.com/70855191/170252554-c322df4b-198f-4ae8-bd70-58a3ccccb953.mov
 
-
-
-
-
 <br>
+
+
+
+
+
 
 ## Day-4
 
-->Save the high score in the local storage and display it to the user
+->Save the high score in the local storage and display it to the user and use fetch API to load questions from [Open Trivia DB](https://opentdb.com/api_config.php)
 <br> 
+
+# Demo of the completed app 
+
+
+
+https://user-images.githubusercontent.com/70855191/170370557-2f1f71b2-607d-4cc3-81ba-9726ff4aef82.mov
+
+
 <hr>
 <p align="center"> © 2022 Santosh Shivam </p> 
