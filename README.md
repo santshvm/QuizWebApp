@@ -69,6 +69,10 @@ https://user-images.githubusercontent.com/70855191/170031104-db02babc-e844-47c6-
 <img width="1439" alt="Screenshot 2022-05-24 at 8 09 42 PM" src="https://user-images.githubusercontent.com/70855191/170063015-b292df58-ea2b-4a87-beef-e0b45225d20e.png">
 
 <br>
+
+## Day-4
+
+->Saving the high score in the local storage...
 <br> 
 <hr>
 <p align="center"> © 2022 Santosh Shivam </p> 
