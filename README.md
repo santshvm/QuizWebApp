@@ -54,7 +54,7 @@ https://user-images.githubusercontent.com/70855191/169997367-6bf7ef1d-6c01-49c0-
 
 ->Create a progress bar than updates according to the number of questions attempted. 
 
-## Demo of the progress-bar 
+### Demo of the progress-bar 
 
 
 https://user-images.githubusercontent.com/70855191/170031104-db02babc-e844-47c6-b23d-d44777d6e596.mov
@@ -63,10 +63,21 @@ https://user-images.githubusercontent.com/70855191/170031104-db02babc-e844-47c6-
 
 ->Create and style the end page (fileName: end.html and end.js) 
 
-## Screenshot of the end page
+### Screenshot of the end page
 
 
 <img width="1439" alt="Screenshot 2022-05-24 at 8 09 42 PM" src="https://user-images.githubusercontent.com/70855191/170063015-b292df58-ea2b-4a87-beef-e0b45225d20e.png">
+
+<br> 
+
+### Demo of the end page  
+
+
+https://user-images.githubusercontent.com/70855191/170252554-c322df4b-198f-4ae8-bd70-58a3ccccb953.mov
+
+
+
+
 
 <br>
 
