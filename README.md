@@ -101,6 +101,9 @@ https://user-images.githubusercontent.com/70855191/170370557-2f1f71b2-607d-4cc3-
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
 * [Fetch API Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [W3 JavaScript localStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+* [Open Trivia API](https://opentdb.com/api_config.php)
+* [CSS Animations - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+* [Pseudo-classes - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
 
 <hr>
