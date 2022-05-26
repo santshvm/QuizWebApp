@@ -1,3 +1,6 @@
+<hr> 
+<br> 
+
 # Building a Quiz App using JavaScript
 
 
