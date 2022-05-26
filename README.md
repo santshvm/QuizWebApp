@@ -91,6 +91,15 @@ https://user-images.githubusercontent.com/70855191/170252554-c322df4b-198f-4ae8-
 
 https://user-images.githubusercontent.com/70855191/170370557-2f1f71b2-607d-4cc3-81ba-9726ff4aef82.mov
 
+# Depoloyment
+
+This project has been deployed to [Netlify](https://www.netlify.com/) which can be accessed by clicking on the following URL: https://quickkkquiz.netlify.app/
+
+# Getting Started 
+
+In order to get started, fork the project and clone it to your local machine. In order to open the project and in oder to run it, you will need to have some code editor like VSCode or Atom and a Web Browser like Chrome. It would be more convinient if you have a live server extension or package installed onto your code editor. If you don't have a live server extension, get the full path of the index.html file and run it on your browser by entering the full path of index.html in the search box. 
+
+
 # Acknowledgements
 
 * [colorhunt.co](https://colorhunt.co/)
