@@ -49,7 +49,7 @@ https://user-images.githubusercontent.com/70855191/169997367-6bf7ef1d-6c01-49c0-
 
 <br> 
 
-->Created a progress bar than updates according to the number of questions attempted. 
+->Created a progress bar that updates according to the number of questions attempted. 
 
 ### Demo of the progress-bar 
 
