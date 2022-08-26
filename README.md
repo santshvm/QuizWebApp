@@ -3,12 +3,9 @@
 
 # Building a Quiz App using JavaScript
 
+# Documenting My Progress
 
-
-## Day-1
-
-
-->Create a basic homepage layout using HTML and CSS flexbox. (fileName: index.html and styles.css)
+->Created a basic homepage layout using HTML and CSS flexbox. (fileName: index.html and styles.css)
 <br> 
 
 ### Screenshot
@@ -16,10 +13,10 @@
 <img width="1440" alt="Screenshot 2022-05-21 at 9 34 50 PM" src="https://user-images.githubusercontent.com/70855191/169659948-3c922bfd-9244-40f4-94c9-bd397b7d97f6.png">
 
 
-## Day-2 
+<br>
 
 
-->Create the game page layout with dummy elements. (fileName: game.html and game.css)
+->Created the game page layout with dummy elements. (fileName: game.html and game.css)
 <br> 
 
 ### Screenshot
@@ -42,9 +39,8 @@ https://user-images.githubusercontent.com/70855191/169827246-ba3c9333-bf1b-46c7-
 
 <br> 
 
-## Day-3
 
-->Create a HUD (Heads-Up Display) to update the total score and number of questions. Total number of questions as of now is 3 and the bonus points awarded for each correct answer is 10. (fileName: game.html; game.css; game.js) 
+->Created a HUD (Heads-Up Display) to update the total score and number of questions. Total number of questions as of now is 3 and the bonus points awarded for each correct answer is 10. (fileName: game.html; game.css; game.js) 
 
 ### Demo of the heads-up display 
 
@@ -62,7 +58,7 @@ https://user-images.githubusercontent.com/70855191/170031104-db02babc-e844-47c6-
 
 <br> 
 
-->Create and style the end page (fileName: end.html and end.js) 
+->Created and style the end page (fileName: end.html and end.js) 
 
 ### Screenshot of the end page
 
@@ -80,12 +76,7 @@ https://user-images.githubusercontent.com/70855191/170252554-c322df4b-198f-4ae8-
 
 
 
-
-
-
-## Day-4
-
-->Save the high score in the local storage and display it to the user and use fetch API to load questions from [Open Trivia DB](https://opentdb.com/api_config.php)
+->High scores to be saved in the local storage and display it to the user and use fetch API to load questions from [Open Trivia DB](https://opentdb.com/api_config.php)
 <br> 
 
 # Demo of the completed app 
