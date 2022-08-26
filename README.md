@@ -23,14 +23,14 @@
 <img width="1438" alt="Screenshot 2022-05-23 at 3 22 53 PM" src="https://user-images.githubusercontent.com/70855191/169794022-3e5f2a06-e238-4b9c-8987-40ec16954ae9.png">
 
 <br> 
-->After creating the game page layout, add some functionality and business logic using JavaScript. Now, it's displaying a the questions randomly from the hardcoded question array. (fileName: game.js)
+->After creating the game page layout, added some functionality and business logic using JavaScript. Now, it's displaying a the questions randomly from the hardcoded question array. (fileName: game.js)
 <br>  
 
 ### Screenshot
 <img width="1440" alt="Screenshot 2022-05-23 at 4 05 13 PM" src="https://user-images.githubusercontent.com/70855191/169801350-db7c7441-4e70-4104-8333-14302a097b67.png">
 <br> 
 
-->Add an click event listener and added feedback mechanim for the choice selected. If the choice selected corresponds to the correct answer to the quesion, the background-color of the choice changes to green else it changes to red for incorrect answers. (fileName: game.js)
+->Added an click event listener and added feedback mechanim for the choice selected. If the choice selected corresponds to the correct answer to the quesion, the background-color of the choice changes to green else it changes to red for incorrect answers. (fileName: game.js)
 <br> 
 
 ## Demo 
@@ -49,7 +49,7 @@ https://user-images.githubusercontent.com/70855191/169997367-6bf7ef1d-6c01-49c0-
 
 <br> 
 
-->Create a progress bar than updates according to the number of questions attempted. 
+->Created a progress bar than updates according to the number of questions attempted. 
 
 ### Demo of the progress-bar 
 
